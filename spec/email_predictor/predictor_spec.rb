@@ -1,9 +1,10 @@
-require_relative '../lib/email_predictor'
+require_relative '../../lib/email_predictor'
 
-describe EmailPredictor do
+describe EmailPredictor::Predictor do
+
   describe '.predict' do
     subject :prediction do
-      EmailPredictor.predict 'Ludwig Wittgenstein', 'cambrige.edu', dataset
+      EmailPredictor::Predictor.new(dataset).predict 'Ludwig Wittgenstein', 'cambrige.edu'
     end
 
     context 'given a dataset with first name and last name' do
@@ -31,3 +32,4 @@ describe EmailPredictor do
     end
   end
 end
+
