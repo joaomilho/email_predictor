@@ -8,6 +8,6 @@ class String
   end
 
   def full?
-    ! initial?
+    !initial?
   end
 end

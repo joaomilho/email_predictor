@@ -1,7 +1,7 @@
 module EmailPredictor
   class Dataset
     def initialize(emails)
-      @emails = emails.map{|email| Email.new(email) }
+      @emails = emails.map { |email| Email.new(email) }
     end
 
     def [](domain)

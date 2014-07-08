@@ -6,14 +6,11 @@ module EmailPredictor
     autoload :Full,           'email_predictor/patterns/full'
 
     def self.patterns
-      constants.map{|pattern| self.const_get(pattern) }
+      constants.map{ |pattern| self.const_get(pattern) }
     end
 
-    def self.evaluate user
-      patterns.detect do |pattern|
-        pattern.match?(user)
-      end
+    def self.evaluate(user)
+      patterns.find{ |pattern| pattern.match?(user) }
     end
   end
 end
-
