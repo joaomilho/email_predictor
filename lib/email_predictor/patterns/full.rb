@@ -1,5 +1,5 @@
 module EmailPredictor
-class Patterns::Full < Pattern
+  class Patterns::Full < Pattern
     def format
       [name, surname]
     end
@@ -8,5 +8,4 @@ class Patterns::Full < Pattern
       name.full? and surname.full?
     end
   end
-
 end
