@@ -1,7 +1,7 @@
 Email predictor
 ===
 
-
+[![Code Climate](https://codeclimate.com/github/joaomilho/email_predictor.png)](https://codeclimate.com/github/joaomilho/email_predictor) [![Build Status](https://travis-ci.org/joaomilho/email_predictor.svg?branch=master)](https://travis-ci.org/joaomilho/email_predictor) [![Coverage Status](https://img.shields.io/coveralls/joaomilho/email_predictor.svg)](https://coveralls.io/r/joaomilho/email_predictor?branch=master)
 
 Install
 ===
