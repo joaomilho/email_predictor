@@ -8,7 +8,7 @@ Install
 
 Clone the repo and bundle:
 
-```
+```bash
 git clone git@github.com:joaomilho/email_predictor.git
 cd email_predictor
 bundle
@@ -18,8 +18,7 @@ Usage
 ===
 
 
-
-```
+```ruby
 dataset = {
   "John Rawls"   => "john.rawls@princeton.edu",
   "Peter Singer" => "peter.singer@princeton.edu"
