@@ -1,4 +1,4 @@
-require_relative '../../lib/email_predictor'
+require 'spec_helper'
 
 describe EmailPredictor::Predictor do
 
